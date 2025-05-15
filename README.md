@@ -200,14 +200,15 @@ predict_image(model,image_index=25,dataset=test_dataset)
 
 
 ## Classification Report
-![image](https://github.com/user-attachments/assets/ffd915eb-06d6-4d87-a901-af5f6a1b0f75)
+
+![WhatsApp Image 2025-05-15 at 10 11 39_d9cf4763](https://github.com/user-attachments/assets/f8b1b958-5c06-4fae-ba7c-2a92d04314b8)
 
 
 
 ### New Sample Data Prediction
-![image](https://github.com/user-attachments/assets/38ff9ffd-9dba-49e2-a569-320a36eca8be)
+![WhatsApp Image 2025-05-15 at 10 11 41_6cfd9a3a](https://github.com/user-attachments/assets/2ad13d0b-e35c-4f3e-94dc-916c07c5592d)
 
-![image](https://github.com/user-attachments/assets/5ff5cf6b-255e-4ab4-bf4e-d526bafeb919)
+![WhatsApp Image 2025-05-15 at 10 11 39_d601b69d](https://github.com/user-attachments/assets/26b92166-69b7-45e9-a402-e17e199f1afd)
 
 
 ## RESULT
