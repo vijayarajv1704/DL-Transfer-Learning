@@ -124,8 +124,7 @@ def train_model(model,train_loader,test_loader,num_epochs=100):
   plt.title("Training and validation Loss")
   plt.legend()
   plt.show()
-  print("Name: YADHAV G P")
-  print("Reg.no: 2122232300247")
+
 device=t.device("cuda" if t.cuda.is_available() else "cpu")
 model=model.to(device)
 train_model(model,train_loader,test_loader)
@@ -162,8 +161,7 @@ def test_model(model,test_loader):
   plt.title("Confusion Matrix")
   plt.show()
 
-  print("Name: YADHAV G P")
-  print("Reg.no: 2122232300247")
+
   print("Classification Report :")
   print(classification_report(all_labels,all_preds,target_names=class_names))
 test_model(model,test_loader)
@@ -178,8 +176,7 @@ def predict_image(model,image_index,dataset):
   class_names=dataset.classes
 
   image_to_display=transforms.ToPILImage()(image)
-  print("Name: YADHAV G P")
-  print("Reg.no: 2122232300247")
+ 
   plt.figure(figsize=(4,4))
   plt.imshow(image_to_display)
   plt.title(f'Actual: {class_names[label]}\nPredicted: {class_names[predicted.item()]}')
